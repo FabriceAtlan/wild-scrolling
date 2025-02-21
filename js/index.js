@@ -1,3 +1,3 @@
 document.addEventListener("click", () => {
-	window.location.href = "/intro.html";
+	window.location.href = "../intro.html";
 })
