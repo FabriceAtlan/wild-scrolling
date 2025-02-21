@@ -1,6 +1,6 @@
 # Wild Code Scrolling
 
-Ma formation Développeur web et Web mobile se termine aujourd'hui. Afin de marquer le coup, j'ai réalisé cette animation d'environ 2 minutes en HTML, CSS et JavaScript, et revisité l'introduction des films Star wars avec le texte déffilant en scrolling verticale 3D.
+Ma formation Développeur web et Web mobile se termine aujourd'hui. Afin de marquer le coup, j'ai réalisé cette animation d'environ 2 minutes en HTML, CSS et JavaScript, et revisité l'introduction des films Star wars avec le texte défilant en scrolling verticale 3D.
 
 Récupérez le projet avec la commande,
 
