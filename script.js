@@ -30,4 +30,8 @@ document.addEventListener("DOMContentLoaded", () => {
 		newStar.classList.add("star2");
 		wrapper.appendChild(newStar);
 	}
+
+	setTimeout(() => {
+		window.location.href = "/index.html";
+	}, 100000)
 })
