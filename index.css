@@ -1,0 +1,19 @@
+.body-start {
+	background-color: #000;
+}
+
+.wrapper-intro {
+	display: grid;
+	place-items: center;
+	width: 80%;
+	min-height: 90vh;
+	margin: 0 auto;
+}
+
+.wrapper-intro h1 {
+	font-family: "Roboto";
+	font-size: 3vw;
+	font-weight: normal;
+	color: #3f91ac;
+	text-shadow: 0 0 5px #3f91ac;
+}
