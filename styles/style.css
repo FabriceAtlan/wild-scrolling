@@ -59,19 +59,18 @@
 
 .sub-title {
 	position: relative;
-	font-size: 2.5vw;
 }
 
-.sub-title::before {
+.sub-title::after {
 	position: absolute;
 	content: "";
-	top: -.9vw;
+	bottom: -.5vw;
 	width: 0;
 	height: 6px;
 	background-color: white;
 	box-shadow: 0 0 4px 2px #ffc909;
 	border-radius: 6px;
-	animation: saber 2.2s linear forwards;
+	animation: saber 3s linear forwards;
 }
 
 .opacity-wrapper {
@@ -106,6 +105,19 @@
 	background-color: #a5a5a5;
 	width: var(--size);
 	height: var(--size);
+}
+
+@keyframes saber {
+	0% {
+		left: 50%;
+		right: 50%;
+		width: 0;
+	}
+	100% {
+		left: 0;
+		right: 0;
+		width: 100%;
+	}
 }
 
 @keyframes scale-title {
