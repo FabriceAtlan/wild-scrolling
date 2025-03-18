@@ -21,6 +21,7 @@
 
 .title-wrapper h1 {
 	text-align: center;
+	line-height: .8;
 	animation: scale-title 70s linear forwards;
 }
 
@@ -42,7 +43,7 @@
 
 	& h1 {
 		text-align: center;
-		font-size: 6vw;
+		font-size: 1vw;
 		margin: 0 0 6rem;
 	}
 
@@ -55,6 +56,23 @@
 	& p {
 		margin: 2rem 0;
 	}
+}
+
+.sub-title {
+	position: relative;
+	font-size: 2.5vw;
+}
+
+.sub-title::before {
+	position: absolute;
+	content: "";
+	top: -.9vw;
+	width: 0;
+	height: 6px;
+	background-color: white;
+	box-shadow: 0 0 4px 2px #ffc909;
+	border-radius: 6px;
+	animation: saber 2.2s linear forwards;
 }
 
 .opacity-wrapper {
@@ -89,6 +107,19 @@
 	background-color: #a5a5a5;
 	width: var(--size);
 	height: var(--size);
+}
+
+@keyframes saber {
+	0% {
+		left: 50%;
+		right: 50%;
+		width: 0;
+	}
+	100% {
+		left: 0;
+		right: 0;
+		width: 100%;
+	}
 }
 
 @keyframes scale-title {
